@@ -58,7 +58,7 @@ export default function Home() {
       stagger: 0.14,
       duration: 0.8,
       ease: "power3.out",
-      scrollTrigger: { trigger: ".story-section", start: "top 72%" },
+      scrollTrigger: { trigger: ".scroll-stage", start: "top 72%" },
     });
   }, { scope: root });
 
